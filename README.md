@@ -1,6 +1,10 @@
 # README
 
 ## Requirements
+Ruby Version
+```bash
+3.1.2
+```
 
 Install Dependencies
 ```bash
