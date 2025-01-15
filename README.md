@@ -23,5 +23,6 @@ bin/rails db:migrate
 
 Run Server
 ```bash
-bin/rails bin/rails server
+bin/rails server
 ```
+

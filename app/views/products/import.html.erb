@@ -1,0 +1,12 @@
+<h1>Import Products</h1>
+
+<%= form_tag batch_create_products_path, method: :post, multipart: true do %>
+  <div class="field">
+    <%= label_tag :file_product, "Product CSV File" %>
+    <%= file_field_tag :file_product %>
+  </div>
+
+  <div class="actions">
+    <%= submit_tag "Import Products" %>
+  </div>
+<% end %>
